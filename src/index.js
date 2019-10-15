@@ -60,9 +60,9 @@ const Translate = function (options = {}) {
     }
 
     // Will load only for Node.js and use the native function on the browser
-    if (typeof fetch === 'undefined') {
-      global.fetch = require('node-fetch');
-    }
+    // if (typeof fetch === 'undefined') {
+    //   global.fetch = require('node-fetch');
+    // }
 
     if (engine.needkey && !opts.key) {
       throw new Error(`The engine "${opts.engine}" needs a key, please provide it`);

@@ -1,5 +1,7 @@
 # Translate
 
+***Fork of [translate package]("https://github.com/franciscop/translate#readme"). I needed to fork because it was throwing errors for node-fetch. That means it will only work on browsers.***
+
 Convert text to different languages on Node.js and the browser. Flexible package and powerful back-end using Google (default) or Yandex:
 
 ```js
